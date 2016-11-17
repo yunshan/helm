@@ -42,6 +42,6 @@ echo "Running 'make build'"
 make build
 
 case "${CIRCLE_NODE_INDEX-0}" in
-  0) run_unit_test   ;;
+#  0) run_unit_test   ;;
   1) run_style_check ;;
 esac
